@@ -47,7 +47,7 @@ def main():
         seg_str      = getSeg(tmp_str)
         seg_len      = len(seg_str)
         result_len   = result_len + seg_len 
-        print repr(seg_str)
+        
         if  seg_str.strip() :        
             result_str   = result_str + seg_str + ' / '
         test_str     = test_str[seg_len:]
